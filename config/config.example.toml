@@ -1,0 +1,17 @@
+[general]
+target_language = "en"
+log_level = "info"
+
+[api_keys]
+deepseek_api_key = ""
+
+[llm]
+provider = "deepseek"
+base_url = ""
+model = ""
+temperature = 1.3
+
+[pipeline]
+model = "deepseek-v4-flash"
+temperature = 1.3
+intermediate_lang = "fi"
